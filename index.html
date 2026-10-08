@@ -100,14 +100,18 @@ footer{font-size:.9rem; color:var(--soft); margin-top:28px}
         <circle cx="200" cy="200" r="68"/>
         <circle cx="200" cy="200" r="102"/>
       </g>
-      <ellipse id="p9" cx="250" cy="150" rx="170" ry="70" transform="rotate(-38 250 150)" fill="none" stroke="#2340D8" stroke-width="3" stroke-dasharray="2 8" stroke-linecap="round"/>
+      <g transform="rotate(-38 250 150)">
+        <ellipse cx="250" cy="150" rx="170" ry="70" fill="none" stroke="#2340D8" stroke-width="3" stroke-dasharray="2 8" stroke-linecap="round"/>
+      </g>
       <circle cx="200" cy="200" r="13" fill="#FFE766" stroke="#17302C" stroke-width="2"/>
       <circle r="6" fill="#17302C"><animateMotion dur="5s" repeatCount="indefinite" path="M200,162 a38,38 0 1,1 -0.01,0"/></circle>
       <circle r="7" fill="#17302C"><animateMotion dur="9s" repeatCount="indefinite" path="M200,132 a68,68 0 1,1 -0.01,0"/></circle>
       <circle r="8" fill="#17302C"><animateMotion dur="14s" repeatCount="indefinite" path="M200,98 a102,102 0 1,1 -0.01,0"/></circle>
-      <circle r="10" fill="#2340D8" stroke="#17302C" stroke-width="2">
-        <animateMotion dur="22s" repeatCount="indefinite" rotate="0" path="M420,150 a170,70 -38 1,1 -0.01,0"/>
-      </circle>
+      <g transform="rotate(-38 250 150)">
+        <circle r="10" fill="#2340D8" stroke="#17302C" stroke-width="2">
+          <animateMotion dur="22s" repeatCount="indefinite" path="M420,150 a170,70 0 1,1 -340,0 a170,70 0 1,1 340,0"/>
+        </circle>
+      </g>
       <text x="14" y="30">Planeta 9 (hipótese)</text>
       <text x="14" y="380">Sol e três órbitas internas</text>
     </svg>
